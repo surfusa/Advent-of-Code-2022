@@ -3,8 +3,6 @@ package DayFour;
 import java.io.BufferedReader;
 import java.io.FileReader;
 
-import javax.swing.plaf.basic.BasicInternalFrameUI.InternalFramePropertyChangeListener;
-
 public class DayFour {
 
     public static void main(String[] args) {

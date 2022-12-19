@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class DayOne {
     public static void main(String[] args) {
-        Path filePath = Paths.get("C:/Users/james/Documents/GitHub/Advent of Code/2022/DayOne/Input.txt");
+        Path filePath = Paths.get("DayOne/Input.txt");
         List<String> entries = null;
         try {
             entries = Files.readAllLines(filePath);

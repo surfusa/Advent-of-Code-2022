@@ -7,7 +7,7 @@ public class DayFour {
 
     public static void main(String[] args) {
         BufferedReader reader;
-        String filePath = "C:/Users/james/Documents/GitHub/Advent of Code/2022/Advent-of-Code-2022/DayFour/Input.txt";
+        String filePath = "DayFour/Input.txt";
         Integer total = 0;
         boolean isPartOne = false;
 

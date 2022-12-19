@@ -1,16 +1,11 @@
-
-import java.nio.file.Files;
-import javax.swing.text.html.parser.Parser;
-import java.lang.Integer;
 import java.io.BufferedReader;
 import java.io.FileReader;
-import java.io.IOException;
 
 public class DayTwo {
     public static void main(String[] args) {
 
         BufferedReader reader;
-        String filePath = "C:/Users/james/Documents/GitHub/Advent of Code/2022/DayTwo/Input.txt";
+        String filePath = "DayTwo/Input.txt";
         int myScore = 0;
         boolean isPart1 = false;
 
@@ -81,7 +76,6 @@ public class DayTwo {
     }
 
     private static int scoreCalculatorPart1(String rspChoice) {
-        int score = 0;
         switch (rspChoice) {
             case "X":
                 return 1;
@@ -141,7 +135,6 @@ public class DayTwo {
     }
 
     private static int scoreCalculatorPart2(String rspChoice) {
-        int score = 0;
         switch (rspChoice) {
             case "X":
                 return 0;

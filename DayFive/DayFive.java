@@ -11,16 +11,14 @@ import java.util.Stack;
 public class DayFive {
     public static void main(String[] args) {
         BufferedReader reader;
-        String filePath = "C:/Users/james/Documents/GitHub/Advent of Code/2022/Advent-of-Code-2022/DayFive/Input.txt";
+        String filePath = "DayFive/Input.txt";
         List<Stack<Character>> containerOfStacks = new ArrayList<Stack<Character>>();
         List<Queue<Character>> containerOfQueues = new ArrayList<Queue<Character>>();
-        int numOfCol = 0;
         boolean isPartOne = false;
 
         try {
             reader = new BufferedReader(new FileReader(filePath));
             String line = reader.readLine();
-            numOfCol = (line.length() + 1) / 4;
             boolean readyToTakeInstructions = false;
 
             while (line != null) {

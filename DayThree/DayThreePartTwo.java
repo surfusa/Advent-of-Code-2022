@@ -8,7 +8,7 @@ public class DayThreePartTwo {
     public static void main(String[] args) {
 
         BufferedReader reader;
-        String filePath = "C:/Users/james/Documents/GitHub/Advent of Code/2022/Advent-of-Code-2022/DayThree/Input.txt";
+        String filePath = "DayThree/Input.txt";
         int mySum = 0;
 
         try {
